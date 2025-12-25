@@ -193,7 +193,7 @@ export default function LoginScreen() {
 
   const handleGoogleSuccess = async (credentialResponse) => {
     try {
-      const res = await axios.post("http://localhost:3001/auth/google", {
+      const res = await axios.post("https://todo-app-kok6.onrender.com/auth/google", {
         token: credentialResponse.credential
       });
 
