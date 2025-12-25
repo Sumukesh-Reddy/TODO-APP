@@ -239,11 +239,50 @@ export default function LoginScreen() {
               width="300"
             />
           </div>
-
          
         </div>
 
-       
+        <div style={{
+  marginTop: '40px',
+  textAlign: 'center',
+  padding: '20px',
+  color: '#94a3b8',
+  fontSize: '0.9rem',
+}}>
+  <div style={{
+    marginBottom: '10px',
+  }}>
+    Developed by <strong style={{ color: '#f8fafc' }}>Sumukesh</strong>
+  </div>
+  <div>
+    <a 
+      href="https://sumukesh-portfolio.vercel.app" 
+      target="_blank" 
+      rel="noopener noreferrer"
+      style={{
+        color: '#0ea5e9',
+        textDecoration: 'none',
+        padding: '8px 16px',
+        borderRadius: '6px',
+        border: '1px solid #334155',
+        display: 'inline-block',
+        transition: 'all 0.2s ease',
+      }}
+      onMouseEnter={(e) => {
+        e.currentTarget.style.background = '#0ea5e9';
+        e.currentTarget.style.color = 'white';
+        e.currentTarget.style.borderColor = '#0ea5e9';
+      }}
+      onMouseLeave={(e) => {
+        e.currentTarget.style.background = 'transparent';
+        e.currentTarget.style.color = '#0ea5e9';
+        e.currentTarget.style.borderColor = '#334155';
+      }}
+    >
+      View Portfolio
+    </a>
+  </div>
+</div>
       </div>
       <style>{`
         @keyframes moveStar1 {
