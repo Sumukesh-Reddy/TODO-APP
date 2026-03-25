@@ -1,0 +1,39 @@
+# Dependencies
+node_modules/
+package-lock.json
+
+# Environment variables
+.env
+.env.local
+.env.production
+
+# Uploads
+uploads/
+uploads/*
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+
+# Build files
+dist/
+build/
+
+# AI models
+src/ai/models/*.h5
+src/ai/models/*.pb
+src/ai/models/*.onnx
+
+# Testing
+coverage/
+.nyc_output/
